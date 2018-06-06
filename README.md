@@ -46,8 +46,8 @@ Be sure to check box for "Add Python to PATH" during the installer
 All of the code and examples for this lesson is located in the 'add me here' directory. Clone and access it with the following commands:
 
 ```
-git clone 'add me here'
-cd
+git clone https://github.com/CiscoDevNet/dnac-python-path-trace
+cd dnac-python-path-trace
 ```
 Use pip to install the necessary requirements
 ```
