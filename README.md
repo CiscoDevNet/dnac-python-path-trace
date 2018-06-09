@@ -1,6 +1,10 @@
 # DNCA Path Trace
 
-Path trace traces a path through the network from host A to host B. You can also provide TCP/UDP port information and the controller will look at points in the network where there is multiple paths and let you know which of the possible paths will be used for this flow. In addition you can get device and interface statistics along the active path. With the DNA Center Platform APIs, you can put path trace to work wherever you want.
+Path trace traces a path through the network from host A to host B. This ability to assure that the correct network services have been put in place. Starting with complete end to end visibility, across each segment or hop over the network and the interactions/connections between them. You can also provide TCP/UDP port information and the controller will look at points in the network where there is multiple paths and let you know which of the possible paths will be used for this flow. In addition you can get device and interface statistics along the active path.
+
+By automating this duty with an assurance solution that provides comprehensive visibility into the network devices and state, and the context to comprehend how to further automatically configure all the devices in the network path to achieve the required performance Intent-based networking provides a continuous loop framework to deliver ongoing protection and alignment to security policy and compliance requirements. The large scale of IoT (Internet of Things) and cloud need such artificial intelligence and machine learning to help analyse the large quantities of data generated from the network and to recommend the appropriate action.
+
+With the DNA Center Platform APIs, you can put path trace to work wherever, whenever you want.
 
 ## Getting started
 
@@ -56,9 +60,11 @@ pip install -r requirements.txt
 
 ### Code features
 
-- An easy-to-use single Python script for monitoring network health, identifying issue root causes, and remediating issues
-- Run a path trace from source to destination to quickly get key performance statistics for each device along the network path
-- Troubleshoots issues along the network path
+- An easy-to-use single Python script for monitoring network health, identifying issue root causes, and helping to remediating issues.
+- Troubleshoots issues along the network path. Checking network state, performance levels, and security status, providing context based on locations and devices and realigning resources in order to meet service levels or compliance regulations.
+- Provides contextual data analysis, important before, during, and after network changes or deployments to help ensure that the network is delivering the desired results throughout and after the process is complete.
+- The machine learning is important in order to create a baseline of performance and security, rapidly identifying any deviation from normal.
+
 
 ## DNAC API reference
 
@@ -88,7 +94,7 @@ optional arguments:
 The source and destination IP address of the hosts. The Source and destination can also be addresses of interfaces on network-devices as well.
 
 - Source: Enter the IP address from which you want the trace to start
-- Destination: Enter the IP address, host name, username, or application name at which you want the trace to end
+- Destination: Enter the IP address, hostname, username, or application name at which you want the trace to end
 
 :warning: Path traces from the a router's loopback interface or a wireless controller's management interface are not supported
 
