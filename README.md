@@ -1,4 +1,4 @@
-# DNCA Path Trace
+# DNAC Path Trace
 
 Path trace traces a path through the network from host A to host B. This ability to assure that the correct network services have been put in place. Starting with complete end to end visibility, across each segment or hop over the network and the interactions/connections between them. You can also provide TCP/UDP port information and the controller will look at points in the network where there is multiple paths and let you know which of the possible paths will be used for this flow. In addition you can get device and interface statistics along the active path.
 
