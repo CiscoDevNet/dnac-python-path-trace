@@ -26,3 +26,5 @@ def apic_login(host, username, password):
 
     # print the token
     print(response.text)
+
+apic_login(apicem['host'], apicem['username'], apicem['password'])
